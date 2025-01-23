@@ -1,9 +1,9 @@
 # Python
+__pycache__/
 *.py[cod]
-**pycache**/
+*$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -15,6 +15,7 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -25,25 +26,17 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
+staticfiles/
 
 # Environment variables
 .env
 
-# VS Code
-.vscode/
-
-# PyCharm
+# IDE
 .idea/
+.vscode/
+*.swp
+*.swo
 
-# macOS
+# OS
 .DS_Store
-
-# Virtual Environment
-venv/
-.env/
-env/
-ENV/
-
-# Static files
-/staticfiles/          # Notice the leading slash
-!static/.gitkeep      # Add this to keep the static directory
+Thumbs.db
