@@ -1,6 +1,6 @@
 # Python
 *.py[cod]
-__pycache__/
+**pycache**/
 *.so
 .Python
 env/
@@ -45,4 +45,5 @@ env/
 ENV/
 
 # Static files
-staticfiles/
+/staticfiles/          # Notice the leading slash
+!static/.gitkeep      # Add this to keep the static directory
