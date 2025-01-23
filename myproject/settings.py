@@ -168,7 +168,12 @@ LOGGING = {
 }
 
 # Add to settings.py
+# In addition to your existing static files configuration
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    BASE_DIR / 'static'
+]
 
 # Configure whitenoise
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
