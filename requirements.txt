@@ -5,3 +5,4 @@ requests
 psycopg2-binary
 whitenoise
 gunicorn
+dj-database-url  # Add this line
