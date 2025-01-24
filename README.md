@@ -29,7 +29,7 @@ Desarrollé un bot de WhatsApp empresarial que utiliza inteligencia artificial a
 - Validación de webhooks
 - Manejo seguro de secretos con variables de entorno
 
-## ¡Pruébalo!
+## Pruébalo
 
 Puedes probar el bot haciendo clic aquí:
 
