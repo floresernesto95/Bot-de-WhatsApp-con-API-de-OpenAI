@@ -31,7 +31,11 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'bot-de-whatsapp-test.up.railway.app',  # Your Railway domain
+    'localhost',                            # For local development
+    '127.0.0.1',                           # For local development
+]
 
 
 # Application definition
