@@ -198,3 +198,12 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
+
+# Additional recommended security settings
+SECURE_SSL_REDIRECT = True                  # Redirect all HTTP traffic to HTTPS
+SECURE_HSTS_SECONDS = 31536000             # 1 year
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True      # Apply HSTS to subdomains
+SECURE_HSTS_PRELOAD = True                 # Allow preloading of HSTS
+
+# If you're using Railway's proxy
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
