@@ -1,14 +1,16 @@
 from django.conf import settings
 from openai import OpenAI
-import logging
 from whatsapp_bot.models import Conversation, Message
 from django.utils import timezone
 from django.db import transaction
+import logging
+import os
 
 # Initialize OpenAI client
 client = OpenAI(api_key=settings.OPENAI_CONFIG['API_KEY'])
 
 MAX_CONTEXT_MESSAGES = 10  # Adjust this to control how many previous messages to include
+
 
 def get_conversation_messages(conversation, include_system=True):
     """Get the recent message history for a conversation"""
@@ -18,7 +20,7 @@ def get_conversation_messages(conversation, include_system=True):
     if include_system:
         messages.append({
             "role": "system",
-            "content": "You're a helpful WhatsApp assistant that can assist guests that are staying in our Paris AirBnb. If you don't know the answer, say simply that you cannot help with question and advice to contact the host directly. Be friendly and funny."
+            "content": settings.OPENAI_CONFIG['SYSTEM_PROMPT']
         })
     
     # Get recent messages
@@ -71,7 +73,7 @@ def generate_response(message_body, wa_id, name):
         completion = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=messages,
-            temperature=0.7,
+            temperature=0.1,
             max_tokens=500
         )
         

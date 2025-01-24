@@ -79,7 +79,9 @@ WHATSAPP_CONFIG = {
 # NEW!!! - OpenAI Configuration
 OPENAI_CONFIG = {
     'API_KEY': os.getenv('OPENAI_API_KEY'),
+    'SYSTEM_PROMPT': os.getenv('SYSTEM_PROMPT'),
 }
+
 
 ROOT_URLCONF = 'myproject.urls'
 
