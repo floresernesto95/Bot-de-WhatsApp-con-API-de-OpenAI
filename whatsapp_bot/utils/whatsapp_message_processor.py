@@ -131,7 +131,7 @@ def process_whatsapp_message(body):
         # Check for reset command
         if message_body.lower().strip() in ["reset", "clear", "/reset", "/clear"]:
             clear_conversation_history(wa_id)
-            response = "Conversation history has been cleared. How can I help you today?"
+            response = "Historial de conversación borrado."
         else:
             # Generate and format response
             response = generate_response(message_body, wa_id, name)
