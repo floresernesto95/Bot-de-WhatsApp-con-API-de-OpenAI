@@ -58,6 +58,6 @@ Desarrollé un asistente virtual de ventas inteligente para The DataMind Group, 
 - PostgreSQL
 - OpenAI GPT-4
 - WhatsApp Business API
-- Railway (Deployment)
+- Railway
 
 Este proyecto demuestra mi capacidad para desarrollar soluciones empresariales complejas que integran múltiples tecnologías y APIs, manteniendo altos estándares de seguridad y escalabilidad.
