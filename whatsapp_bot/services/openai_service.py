@@ -73,8 +73,8 @@ def generate_response(message_body, wa_id, name):
         completion = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=messages,
-            temperature=0.1,
-            max_tokens=500
+            temperature=0.2,
+            max_tokens=1000
         )
         
         # Extract the response
