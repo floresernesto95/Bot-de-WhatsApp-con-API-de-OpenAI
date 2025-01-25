@@ -1,45 +1,63 @@
 # Bot de WhatsApp con API de OpenAI
 
 ## Descripción
-Desarrollé un bot de WhatsApp empresarial que utiliza inteligencia artificial avanzada para mantener conversaciones contextuales y naturales con los usuarios. El sistema implementa una arquitectura robusta que mantiene el historial de conversaciones, permitiendo respuestas más coherentes y personalizadas.
+Desarrollé un asistente virtual de ventas inteligente para The DataMind Group, una empresa líder en soluciones de inteligencia artificial. Este proyecto implementa un servicio de chat avanzado a través de WhatsApp que utiliza Large Language Models (LLM) y mantiene un historial de conversación persistente para ofrecer respuestas contextualizadas y personalizadas.
 
 ## Características Principales
 
-- **Memoria Conversacional**: Implementación de un sistema de almacenamiento de conversaciones que mantiene el contexto de las interacciones previas.
-- **Integración con GPT-4**: Utilización del modelo más avanzado de OpenAI para generar respuestas naturales y contextualmente relevantes.
-- **Seguridad Robusta**: Implementación de verificación de firmas HMAC-SHA256 para asegurar la autenticidad de las comunicaciones.
-- **Gestión de Estado**: Sistema de seguimiento de mensajes para prevenir duplicados y garantizar la integridad de las conversaciones.
-- **Alta Disponibilidad**: Despliegue en Railway con configuración optimizada para producción.
-- **Base de Datos Escalable**: Utilización de PostgreSQL para almacenamiento persistente y eficiente de conversaciones.
+### Inteligencia Artificial Avanzada
+- Integración con GPT-4 para procesamiento de lenguaje natural
+- Sistema de memoria conversacional para mantener contexto
+- Personalización dinámica basada en el perfil del usuario
 
-## Tecnologías Utilizadas
-
-- Django 5.1
-- PostgreSQL
-- WhatsApp Cloud API
-- OpenAI GPT-4
-- Railway (Despliegue)
-- Python 3.11
-
-## Características de Seguridad
-
+### Seguridad Robusta
+- Autenticación webhook con firma SHA-256
+- Validación de mensajes WhatsApp
+- Protección contra mensajes duplicados
 - Implementación de HTTPS forzado
-- Protección contra XSS
-- Headers de seguridad configurados
-- Validación de webhooks
-- Manejo seguro de secretos con variables de entorno
+- Headers de seguridad configurados (HSTS, XSS Protection)
+
+### Gestión de Datos
+- Sistema de persistencia de conversaciones en PostgreSQL
+- Modelado de datos eficiente para conversaciones y mensajes
+- Manejo optimizado de la memoria conversacional
+
+### Características Técnicas
+- Arquitectura basada en Django
+- API REST para integración con WhatsApp
+- Sistema de logging comprensivo
+- Manejo de errores robusto
+- Despliegue en Railway con configuración optimizada
+
+### Funcionalidades del Bot
+- Perfilado automático de clientes
+- Recomendaciones personalizadas de servicios
+- Manejo inteligente de consultas técnicas y comerciales
+- Sistema de reset de conversación
 
 ## Pruébalo
+¡Interactúa con el asistente! Envía un mensaje a:
+[WhatsApp](https://wa.me/5493513982314?text=Hola!)
 
-Puedes probar el bot haciendo clic aquí:
+## Mensajes sugeridos 
 
-https://wa.me/5493513982314?text=Hola%2C%20%C2%BFc%C3%B3mo%20est%C3%A1s%3F
+- ¿Cuáles son sus canales de contacto?
+- Hola, me interesa implementar IA en mi empresa
+- Somos una empresa de 200 empleados buscando soluciones de IA
+- Buscamos desarrollar un chatbot personalizado
 
-## Impacto y Resultados
+## Impacto en el Negocio
+- Atención al cliente 24/7
+- Escalabilidad automática
+- Reducción de tiempo de respuesta
+- Consistencia en la información proporcionada
+- Mejora en la calificación de leads
 
-- Reducción del 70% en tiempo de respuesta al cliente
-- Capacidad de manejar múltiples conversaciones simultáneas
-- Sistema 24/7 con monitoreo y logging
-- Integración seamless con sistemas empresariales existentes
+## Tecnologías Utilizadas
+- Python/Django
+- PostgreSQL
+- OpenAI GPT-4
+- WhatsApp Business API
+- Railway (Deployment)
 
-Este proyecto demuestra mi capacidad para desarrollar soluciones empresariales robustas, implementar integraciones complejas con APIs externas y mantener altos estándares de seguridad y rendimiento.
+Este proyecto demuestra mi capacidad para desarrollar soluciones empresariales complejas que integran múltiples tecnologías y APIs, manteniendo altos estándares de seguridad y escalabilidad.
