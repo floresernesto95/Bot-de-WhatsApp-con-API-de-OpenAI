@@ -1,7 +1,7 @@
 # Bot de WhatsApp con API de OpenAI
 
 ## Descripción
-Desarrollé un asistente virtual de ventas inteligente para The DataMind Group, una empresa líder en soluciones de inteligencia artificial. Este proyecto implementa un servicio de chat avanzado a través de WhatsApp que utiliza Large Language Models (LLM) y mantiene un historial de conversación persistente para ofrecer respuestas contextualizadas y personalizadas.
+Desarrollé un asistente virtual de ventas inteligente para Ernesto Corp., una empresa líder en soluciones de inteligencia artificial. Este proyecto implementa un servicio de chat avanzado a través de WhatsApp que utiliza Large Language Models (LLM) y mantiene un historial de conversación persistente para ofrecer respuestas contextualizadas y personalizadas.
 
 ## Características Principales
 
