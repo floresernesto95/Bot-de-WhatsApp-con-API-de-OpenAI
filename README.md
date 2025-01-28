@@ -37,7 +37,7 @@ Desarrollé un asistente virtual de ventas inteligente para Ernesto Corp., una e
 
 ## Pruébalo
 ¡Interactúa con el asistente! Envía un mensaje a:
-[WhatsApp](https://wa.me/5493513982314?text=Hola!)
+[+54 9 3513 98-2314](https://wa.me/5493513982314?text=Hola!)
 
 ## Mensajes sugeridos 
 
