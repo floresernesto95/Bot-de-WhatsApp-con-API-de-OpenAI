@@ -36,8 +36,7 @@ Desarrollé un asistente virtual de ventas inteligente para Ernesto Corp., una e
 - Sistema de reset de conversación
 
 ## Pruébalo
-¡Interactúa con el asistente! Envía un mensaje a:
-[+54 9 3513 98-2314](https://wa.me/5493513982314?text=Hola!)
+¡Interactúa con el asistente! Envía un mensaje a [+54 9 3513 98-2314](https://wa.me/5493513982314?text=Hola!)
 
 ## Mensajes sugeridos 
 
